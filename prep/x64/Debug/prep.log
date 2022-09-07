@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\matei\repos\prep\prep\server.hpp(16,3): error C2561: 'server_init': function must return a value
+C:\Users\matei\repos\prep\prep\server.hpp(7): message : see declaration of 'server_init'
+C:\Users\matei\repos\prep\prep\server.hpp(23,3): error C2561: 'server_init': function must return a value
+C:\Users\matei\repos\prep\prep\server.hpp(7): message : see declaration of 'server_init'

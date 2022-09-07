@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Console.cpp">
+      <Filter>CConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{52dafd86-04bd-447f-853e-adb99bf0edb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CConsole">
+      <UniqueIdentifier>{24699054-26aa-481d-8c0a-82f5e41e83c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CServer">
+      <UniqueIdentifier>{44660eef-77d6-41ac-ab02-b034430794f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSocket">
+      <UniqueIdentifier>{31d2558e-f266-424e-b7a0-5f323c81d22f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Console.h">
+      <Filter>CConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="server.hpp">
+      <Filter>CServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocket.h">
+      <Filter>CSocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
